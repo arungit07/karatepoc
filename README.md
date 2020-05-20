@@ -11,6 +11,6 @@ Project details
 ---------------
 
 User module of gorest have functionalities like user listing in table, user creation, user update, user view and user delete. In this POC
-seperate feaure files have been created for each of the above functioanlities. The test cases for each functionalities are covered as feature scenarios.
-A module level Junit5runner for running features of a module , a test suite Junit runner for runnining all features irrespective of the modules and a parallel runner
+seperate feaure files have been created for each of the above functionalities. The test cases for each functionalities are covered as feature scenarios.
+A module level Junit-5 runner for running features of a module , a test suite Junit runner for running all features irrespective of the modules and a parallel runner
 for parallel execution have been implemented.
