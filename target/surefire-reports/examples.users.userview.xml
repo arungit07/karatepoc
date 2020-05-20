@@ -1,0 +1,19 @@
+<testsuite failures="1" name="examples/users/userview.feature" skipped="0" tests="1" time="1.960355">
+  <testcase classname="examples.users.userview" name="Checking whether possible to view a user" time="1.960355">
+    <failure message="userview.feature:10 - &#10;usersnew.feature:22 - path: $._meta.message, actual: 'Data validation failed. Please check the response body for detailed error messages.', expected: 'OK. Everything worked as expected.', reason: not a sub-string">* url myurl ............................................................... passed
+* def accessToken = 'SgAL3dv2sLpkUMR_MSKFvn2RkViDLx12MxMN' ................ passed
+* def result = call read('usersnew.feature') .............................. failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: userview.feature:10 - 
+usersnew.feature:22 - path: $._meta.message, actual: 'Data validation failed. Please check the response body for detailed error messages.', expected: 'OK. Everything worked as expected.', reason: not a sub-string&#13;
+	at ✽.* def result = call read('usersnew.feature') (userview.feature:10)&#13;
+
+Given path  'users/' + result.id .......................................... skipped
+And header Authorization = 'Bearer ' + accessToken ........................ skipped
+When method get ........................................................... skipped
+Then status 200 ........................................................... skipped
+And match response._meta.message contains 'OK. Everything worked as expected.' . skipped
+* karate.log(response) .................................................... skipped</failure>
+  </testcase>
+</testsuite>

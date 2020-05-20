@@ -1,0 +1,31 @@
+09:09:54.133 karate.env system property was:  
+09:09:54.695 request:
+1 > POST https://gorest.co.in/public-api/users/create.html
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer SgAL3dv2sLpkUMR_MSKFvn2RkViDLx12MxMN
+1 > Connection: Keep-Alive
+1 > Content-Length: 78
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_241)
+{"first_name":"nany1","last_name":"jacob","gender":"male","email":"cv1@c.com"}
+
+09:09:56.147 response time in milliseconds: 1451.25
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 20 May 2020 03:39:55 GMT
+1 < Server: nginx
+1 < Set-Cookie: _csrf=24c35a536d8275847c312dc266fc974ede8bc381d9d8972cc2564b857ea9ef13a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22fJN93z1SzvYgk1t4eoDUJzZabtw9rT4r%22%3B%7D; path=/; HttpOnly
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Accept]
+1 < X-Frame-Options: sameorigin
+1 < X-Rate-Limit-Limit: 30
+1 < X-Rate-Limit-Remaining: 20
+1 < X-Rate-Limit-Reset: 20
+{"_meta":{"success":false,"code":422,"message":"Data validation failed. Please check the response body for detailed error messages.","rateLimit":{"limit":30,"remaining":20,"reset":20}},"result":[{"field":"email","message":"Email \"cv1@c.com\" has already been taken."}]}
+
+09:09:56.148 assertion failed: path: $._meta.message, actual: 'Data validation failed. Please check the response body for detailed error messages.', expected: 'OK. Everything worked as expected.', reason: not a sub-string
+09:09:56.148 feature call failed: classpath:examples/users/usersnew.feature
+arg: null
+usersnew.feature:22 - path: $._meta.message, actual: 'Data validation failed. Please check the response body for detailed error messages.', expected: 'OK. Everything worked as expected.', reason: not a sub-string

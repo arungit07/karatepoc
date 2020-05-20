@@ -1,0 +1,222 @@
+<testsuite failures="0" name="examples/users/userslist.feature" skipped="0" tests="5" time="9.094742">
+  <testcase classname="examples.users.userslist" name="Checking users are properly listed on every or particular page" time="1.783912">
+    <system-out>* def accessToken = 'SgAL3dv2sLpkUMR_MSKFvn2RkViDLx12MxMN' ................ passed
+* url myurl ............................................................... passed
+Given path 'users/' + 'index.html' ........................................ passed
+And def currentpage = '110' ............................................... passed
+And header Authorization = 'Bearer ' + accessToken ........................ passed
+And param page = currentpage .............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def size = function(o){ return o.size()} ................................ passed
+* def length = size(response.result) ...................................... passed
+* def pageCheck = ......................................................... passed
+* def message = call pageCheck length ..................................... passed
+* print message ........................................................... passed
+* print 'Total No of user records in ', response._meta.currentPage, 'page is ' , length . passed</system-out>
+  </testcase>
+  <testcase classname="examples.users.userslist" name="Checking users are properly listed on every or particular page" time="1.888535">
+    <system-out>* def accessToken = 'SgAL3dv2sLpkUMR_MSKFvn2RkViDLx12MxMN' ................ passed
+* url myurl ............................................................... passed
+Given path 'users/' + 'index.html' ........................................ passed
+And def currentpage = '110' ............................................... passed
+And header Authorization = 'Bearer ' + accessToken ........................ passed
+And param page = currentpage .............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def size = function(o){ return o.size()} ................................ passed
+* def length = size(response.result) ...................................... passed
+* def pageCheck = ......................................................... passed
+* def message = call pageCheck length ..................................... passed
+* print message ........................................................... passed
+* print 'Total No of user records in ', response._meta.currentPage, 'page is ' , length . passed
+* def accessToken = 'SgAL3dv2sLpkUMR_MSKFvn2RkViDLx12MxMN' ................ passed
+* url myurl ............................................................... passed
+Given path 'users/' + 'index.html' ........................................ passed
+And def currentpage = '109' ............................................... passed
+And header Authorization = 'Bearer ' + accessToken ........................ passed
+And param page = currentpage .............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def size = function(o){ return o.size()} ................................ passed
+* def length = size(response.result) ...................................... passed
+* def pageCheck = ......................................................... passed
+* def message = call pageCheck length ..................................... passed
+* print message ........................................................... passed
+* print 'Total No of user records in ', response._meta.currentPage, 'page is ' , length . passed</system-out>
+  </testcase>
+  <testcase classname="examples.users.userslist" name="Checking users are properly listed on every or particular page" time="1.85246">
+    <system-out>* def accessToken = 'SgAL3dv2sLpkUMR_MSKFvn2RkViDLx12MxMN' ................ passed
+* url myurl ............................................................... passed
+Given path 'users/' + 'index.html' ........................................ passed
+And def currentpage = '110' ............................................... passed
+And header Authorization = 'Bearer ' + accessToken ........................ passed
+And param page = currentpage .............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def size = function(o){ return o.size()} ................................ passed
+* def length = size(response.result) ...................................... passed
+* def pageCheck = ......................................................... passed
+* def message = call pageCheck length ..................................... passed
+* print message ........................................................... passed
+* print 'Total No of user records in ', response._meta.currentPage, 'page is ' , length . passed
+* def accessToken = 'SgAL3dv2sLpkUMR_MSKFvn2RkViDLx12MxMN' ................ passed
+* url myurl ............................................................... passed
+Given path 'users/' + 'index.html' ........................................ passed
+And def currentpage = '109' ............................................... passed
+And header Authorization = 'Bearer ' + accessToken ........................ passed
+And param page = currentpage .............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def size = function(o){ return o.size()} ................................ passed
+* def length = size(response.result) ...................................... passed
+* def pageCheck = ......................................................... passed
+* def message = call pageCheck length ..................................... passed
+* print message ........................................................... passed
+* print 'Total No of user records in ', response._meta.currentPage, 'page is ' , length . passed
+* def accessToken = 'SgAL3dv2sLpkUMR_MSKFvn2RkViDLx12MxMN' ................ passed
+* url myurl ............................................................... passed
+Given path 'users/' + 'index.html' ........................................ passed
+And def currentpage = '15' ................................................ passed
+And header Authorization = 'Bearer ' + accessToken ........................ passed
+And param page = currentpage .............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def size = function(o){ return o.size()} ................................ passed
+* def length = size(response.result) ...................................... passed
+* def pageCheck = ......................................................... passed
+* def message = call pageCheck length ..................................... passed
+* print message ........................................................... passed
+* print 'Total No of user records in ', response._meta.currentPage, 'page is ' , length . passed</system-out>
+  </testcase>
+  <testcase classname="examples.users.userslist" name="Checking users are properly listed on every or particular page" time="1.784851">
+    <system-out>* def accessToken = 'SgAL3dv2sLpkUMR_MSKFvn2RkViDLx12MxMN' ................ passed
+* url myurl ............................................................... passed
+Given path 'users/' + 'index.html' ........................................ passed
+And def currentpage = '110' ............................................... passed
+And header Authorization = 'Bearer ' + accessToken ........................ passed
+And param page = currentpage .............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def size = function(o){ return o.size()} ................................ passed
+* def length = size(response.result) ...................................... passed
+* def pageCheck = ......................................................... passed
+* def message = call pageCheck length ..................................... passed
+* print message ........................................................... passed
+* print 'Total No of user records in ', response._meta.currentPage, 'page is ' , length . passed
+* def accessToken = 'SgAL3dv2sLpkUMR_MSKFvn2RkViDLx12MxMN' ................ passed
+* url myurl ............................................................... passed
+Given path 'users/' + 'index.html' ........................................ passed
+And def currentpage = '109' ............................................... passed
+And header Authorization = 'Bearer ' + accessToken ........................ passed
+And param page = currentpage .............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def size = function(o){ return o.size()} ................................ passed
+* def length = size(response.result) ...................................... passed
+* def pageCheck = ......................................................... passed
+* def message = call pageCheck length ..................................... passed
+* print message ........................................................... passed
+* print 'Total No of user records in ', response._meta.currentPage, 'page is ' , length . passed
+* def accessToken = 'SgAL3dv2sLpkUMR_MSKFvn2RkViDLx12MxMN' ................ passed
+* url myurl ............................................................... passed
+Given path 'users/' + 'index.html' ........................................ passed
+And def currentpage = '15' ................................................ passed
+And header Authorization = 'Bearer ' + accessToken ........................ passed
+And param page = currentpage .............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def size = function(o){ return o.size()} ................................ passed
+* def length = size(response.result) ...................................... passed
+* def pageCheck = ......................................................... passed
+* def message = call pageCheck length ..................................... passed
+* print message ........................................................... passed
+* print 'Total No of user records in ', response._meta.currentPage, 'page is ' , length . passed
+* def accessToken = 'SgAL3dv2sLpkUMR_MSKFvn2RkViDLx12MxMN' ................ passed
+* url myurl ............................................................... passed
+Given path 'users/' + 'index.html' ........................................ passed
+And def currentpage = '1' ................................................. passed
+And header Authorization = 'Bearer ' + accessToken ........................ passed
+And param page = currentpage .............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def size = function(o){ return o.size()} ................................ passed
+* def length = size(response.result) ...................................... passed
+* def pageCheck = ......................................................... passed
+* def message = call pageCheck length ..................................... passed
+* print message ........................................................... passed
+* print 'Total No of user records in ', response._meta.currentPage, 'page is ' , length . passed</system-out>
+  </testcase>
+  <testcase classname="examples.users.userslist" name="Checking users are properly listed on every or particular page" time="1.784984">
+    <system-out>* def accessToken = 'SgAL3dv2sLpkUMR_MSKFvn2RkViDLx12MxMN' ................ passed
+* url myurl ............................................................... passed
+Given path 'users/' + 'index.html' ........................................ passed
+And def currentpage = '110' ............................................... passed
+And header Authorization = 'Bearer ' + accessToken ........................ passed
+And param page = currentpage .............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def size = function(o){ return o.size()} ................................ passed
+* def length = size(response.result) ...................................... passed
+* def pageCheck = ......................................................... passed
+* def message = call pageCheck length ..................................... passed
+* print message ........................................................... passed
+* print 'Total No of user records in ', response._meta.currentPage, 'page is ' , length . passed
+* def accessToken = 'SgAL3dv2sLpkUMR_MSKFvn2RkViDLx12MxMN' ................ passed
+* url myurl ............................................................... passed
+Given path 'users/' + 'index.html' ........................................ passed
+And def currentpage = '109' ............................................... passed
+And header Authorization = 'Bearer ' + accessToken ........................ passed
+And param page = currentpage .............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def size = function(o){ return o.size()} ................................ passed
+* def length = size(response.result) ...................................... passed
+* def pageCheck = ......................................................... passed
+* def message = call pageCheck length ..................................... passed
+* print message ........................................................... passed
+* print 'Total No of user records in ', response._meta.currentPage, 'page is ' , length . passed
+* def accessToken = 'SgAL3dv2sLpkUMR_MSKFvn2RkViDLx12MxMN' ................ passed
+* url myurl ............................................................... passed
+Given path 'users/' + 'index.html' ........................................ passed
+And def currentpage = '15' ................................................ passed
+And header Authorization = 'Bearer ' + accessToken ........................ passed
+And param page = currentpage .............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def size = function(o){ return o.size()} ................................ passed
+* def length = size(response.result) ...................................... passed
+* def pageCheck = ......................................................... passed
+* def message = call pageCheck length ..................................... passed
+* print message ........................................................... passed
+* print 'Total No of user records in ', response._meta.currentPage, 'page is ' , length . passed
+* def accessToken = 'SgAL3dv2sLpkUMR_MSKFvn2RkViDLx12MxMN' ................ passed
+* url myurl ............................................................... passed
+Given path 'users/' + 'index.html' ........................................ passed
+And def currentpage = '1' ................................................. passed
+And header Authorization = 'Bearer ' + accessToken ........................ passed
+And param page = currentpage .............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def size = function(o){ return o.size()} ................................ passed
+* def length = size(response.result) ...................................... passed
+* def pageCheck = ......................................................... passed
+* def message = call pageCheck length ..................................... passed
+* print message ........................................................... passed
+* print 'Total No of user records in ', response._meta.currentPage, 'page is ' , length . passed
+* def accessToken = 'SgAL3dv2sLpkUMR_MSKFvn2RkViDLx12MxMN' ................ passed
+* url myurl ............................................................... passed
+Given path 'users/' + 'index.html' ........................................ passed
+And def currentpage = '0' ................................................. passed
+And header Authorization = 'Bearer ' + accessToken ........................ passed
+And param page = currentpage .............................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+* def size = function(o){ return o.size()} ................................ passed
+* def length = size(response.result) ...................................... passed
+* def pageCheck = ......................................................... passed
+* def message = call pageCheck length ..................................... passed
+* print message ........................................................... passed
+* print 'Total No of user records in ', response._meta.currentPage, 'page is ' , length . passed</system-out>
+  </testcase>
+</testsuite>
