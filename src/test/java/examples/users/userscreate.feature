@@ -14,7 +14,7 @@ Feature: To check the user creation functionality
   { first_name: 'nany1',
     last_name: 'jacob',
     gender:'male',
-    email:'cv2@c.com'}
+    email:'cv1@c.com'}
   """
     When  method post
     Then status 200
@@ -31,7 +31,7 @@ Feature: To check the user creation functionality
   { first_name: 'nany2',
     last_name: 'jacob',
     gender:'male',
-    email:'cv4@c.com',
+    email:'cv2@c.com',
     dob: '1990-11-05',
     phone: '2312345678',
     status:'active',
@@ -111,7 +111,7 @@ Feature: To check the user creation functionality
   { first_name: 'nuby5',
     last_name: 'jacob',
     gender:'male',
-    email:'cv6@c.com',
+    email:'cv3@c.com',
     dob: '1990-11-05',
     phone: '1234567890',
     status:'#(value)',
@@ -141,7 +141,7 @@ Feature: To check the user creation functionality
   { first_name: 'nuby5',
     last_name: 'jacob',
     gender:'male',
-    email:'cv6@c.com',
+    email:'cv4@c.com',
     dob: '1990-11-05',
     phone: '1234567890',
     status:'',
@@ -171,7 +171,7 @@ Feature: To check the user creation functionality
   { first_name: 'nuby5',
     last_name: 'jacob',
     gender:'male',
-    email:'cv6@c.com',
+    email:'cv5@c.com',
     dob: '#(value)',
     phone: '1234567890',
     status:'',

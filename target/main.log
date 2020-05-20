@@ -1,0 +1,153 @@
+15:01:45.566 karate.env system property was:  
+15:01:46.118 request:
+1 > POST https://gorest.co.in/public-api/users/create.html
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer SgAL3dv2sLpkUMR_MSKFvn2RkViDLx12MxMN
+1 > Connection: Keep-Alive
+1 > Content-Length: 78
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_241)
+{"first_name":"Nany1","last_name":"jacob","gender":"male","email":"cv1@c.com"}
+
+15:01:46.950 response time in milliseconds: 829.88
+1 < 302
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 20 May 2020 09:31:46 GMT
+1 < Location: https://gorest.co.in/public-api/users/25484
+1 < Server: nginx
+1 < Set-Cookie: _csrf=19da2e928ca19ad73a61665c31ba1ddc1b1623e0fa898e2ec312c2d1c6e3f4e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kHVCnRuukI835D1QNC7-Fylf-ET8PtUI%22%3B%7D; path=/; HttpOnly
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept
+1 < X-Frame-Options: sameorigin
+1 < X-Rate-Limit-Limit: 30
+1 < X-Rate-Limit-Remaining: 29
+1 < X-Rate-Limit-Reset: 2
+{"_meta":{"success":true,"code":201,"message":"A resource was successfully created in response to a POST request. The Location header contains the URL pointing to the newly created resource.","rateLimit":{"limit":30,"remaining":29,"reset":2}},"result":{"id":"25484","first_name":"Nany1","last_name":"jacob","gender":"male","dob":null,"email":"cv1@c.com","phone":null,"website":null,"address":null,"status":null,"_links":{"self":{"href":"https://gorest.co.in/public-api/users/25484"},"edit":{"href":"https://gorest.co.in/public-api/users/25484"},"avatar":{"href":null}}}}
+
+15:01:46.954 request:
+2 > GET https://gorest.co.in/public-api/users/create.html
+2 > Accept-Encoding: gzip,deflate
+2 > Authorization: Bearer SgAL3dv2sLpkUMR_MSKFvn2RkViDLx12MxMN
+2 > Connection: Keep-Alive
+2 > Content-Type: application/json; charset=UTF-8
+2 > Cookie: _csrf=19da2e928ca19ad73a61665c31ba1ddc1b1623e0fa898e2ec312c2d1c6e3f4e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kHVCnRuukI835D1QNC7-Fylf-ET8PtUI%22%3B%7D
+2 > Host: gorest.co.in
+2 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_241)
+
+15:01:47.088 response time in milliseconds: 132.49
+2 < 200
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=UTF-8
+2 < Date: Wed, 20 May 2020 09:31:46 GMT
+2 < Server: nginx
+2 < Set-Cookie: _csrf=a28c54588454522a5d1c47f3fdd15dc0ffa59840a52afb37622dfe48eb481cbea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22CuSZh-uCDC9An_60G7FXnnMyJtSXUvtI%22%3B%7D; path=/; HttpOnly
+2 < Transfer-Encoding: chunked
+2 < Vary: [Accept-Encoding, Accept]
+2 < X-Frame-Options: sameorigin
+2 < X-Rate-Limit-Limit: 30
+2 < X-Rate-Limit-Remaining: 28
+2 < X-Rate-Limit-Reset: 4
+{"_meta":{"success":true,"code":200,"message":"OK. Everything worked as expected.","rateLimit":{"limit":30,"remaining":28,"reset":4}},"result":{"id":"25484","first_name":"Nany1","last_name":"jacob","gender":"male","dob":null,"email":"cv1@c.com","phone":null,"website":null,"address":null,"status":null,"_links":{"self":{"href":"https://gorest.co.in/public-api/users/25484"},"edit":{"href":"https://gorest.co.in/public-api/users/25484"},"avatar":{"href":null}}}}
+
+15:01:47.102 [print]  The user id :
+25484
+15:01:47.109 {
+  "result": {
+    "website": null,
+    "address": null,
+    "gender": "male",
+    "phone": null,
+    "_links": {
+      "edit": {
+        "href": "https://gorest.co.in/public-api/users/25484"
+      },
+      "self": {
+        "href": "https://gorest.co.in/public-api/users/25484"
+      },
+      "avatar": {
+        "href": null
+      }
+    },
+    "dob": null,
+    "last_name": "jacob",
+    "id": "25484",
+    "first_name": "Nany1",
+    "email": "cv1@c.com",
+    "status": null
+  },
+  "_meta": {
+    "code": 200,
+    "rateLimit": {
+      "limit": 30,
+      "reset": 4,
+      "remaining": 28
+    },
+    "success": true,
+    "message": "OK. Everything worked as expected."
+  }
+}
+ 
+15:01:47.117 request:
+1 > PUT https://gorest.co.in/public-api/users/25484
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Bearer SgAL3dv2sLpkUMR_MSKFvn2RkViDLx12MxMN
+1 > Connection: Keep-Alive
+1 > Content-Length: 19
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_241)
+{"gender":"female"}
+
+15:01:47.686 response time in milliseconds: 566.91
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 20 May 2020 09:31:46 GMT
+1 < Server: nginx
+1 < Set-Cookie: _csrf=f68811186232bfca943d3cb16dda678d336536616a6ae292784a3821cd902ef1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223qT9t3qc1631zwB3FJ5WiLd28NerBbpm%22%3B%7D; path=/; HttpOnly
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Accept]
+1 < X-Frame-Options: sameorigin
+1 < X-Rate-Limit-Limit: 30
+1 < X-Rate-Limit-Remaining: 27
+1 < X-Rate-Limit-Reset: 6
+{"_meta":{"success":true,"code":200,"message":"OK. Everything worked as expected.","rateLimit":{"limit":30,"remaining":27,"reset":6}},"result":{"id":"25484","first_name":"Nany1","last_name":"jacob","gender":"female","dob":null,"email":"cv1@c.com","phone":null,"website":null,"address":null,"status":null,"_links":{"self":{"href":"https://gorest.co.in/public-api/users/25484"},"edit":{"href":"https://gorest.co.in/public-api/users/25484"},"avatar":{"href":null}}}}
+
+15:01:47.693 {
+  "result": {
+    "website": null,
+    "address": null,
+    "gender": "female",
+    "phone": null,
+    "_links": {
+      "edit": {
+        "href": "https://gorest.co.in/public-api/users/25484"
+      },
+      "self": {
+        "href": "https://gorest.co.in/public-api/users/25484"
+      },
+      "avatar": {
+        "href": null
+      }
+    },
+    "dob": null,
+    "last_name": "jacob",
+    "id": "25484",
+    "first_name": "Nany1",
+    "email": "cv1@c.com",
+    "status": null
+  },
+  "_meta": {
+    "code": 200,
+    "rateLimit": {
+      "limit": 30,
+      "reset": 6,
+      "remaining": 27
+    },
+    "success": true,
+    "message": "OK. Everything worked as expected."
+  }
+}
+ 
