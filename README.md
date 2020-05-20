@@ -1,9 +1,9 @@
 
 
-# This is POC for karate framework done with maven karate archetype. Automation is done with gorestapi user modeule:  https://gorest.co.in/public-data/users.html
-# Clone the repo and run the test with maven
-# Now configured to run with Junit5 parallel runner
-# Reports by maven cucumber reporting dependency other than the other default ones. Now configured to run with parallel runner
+#This is POC for karate framework done with maven karate archetype. Automation is done with gorestapi user modeule:  https://gorest.co.in/public-data/users.html
+#Clone the repo and run the test with maven
+#Now configured to run with Junit5 parallel runner
+#Reports by maven cucumber reporting dependency other than the other default ones. Now configured to run with parallel runner
 #Types of methods covered: GET, POST,PUT and DELETE
 
 
